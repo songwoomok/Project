@@ -7,7 +7,20 @@ enum class eScene
 	GameOverScene,
 };
 
+enum class eUpdateState
+{
+	Run,
+	Final,
+};
 
+enum eGamePlay
+{
+	Player = 1000,
+
+	Mine,
+	Open,
+	Flag,
+};
 #define SAFE_DELETE(x)		{ if((x) != nullptr ) { delete (x); (x) = nullptr; } }
 #define SAFE_DELETE_ARR(x)	{ if((x) != nullptr ) { delete[] (x); (x) = nullptr; } }
 

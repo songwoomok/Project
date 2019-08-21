@@ -154,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="Application.h" />
     <ClInclude Include="Define.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="GameOverScene.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="IntroScene.h" />
@@ -164,6 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="MineSweeper.cpp" />
     <ClCompile Include="Define.cpp" />
     <ClCompile Include="GameOverScene.cpp" />

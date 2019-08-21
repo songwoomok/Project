@@ -5,6 +5,9 @@
 #include <vector>
 #include <cassert>
 #include <Windows.h>
+#include <time.h>
+#include <conio.h>
+
 
 #include <string>
 
