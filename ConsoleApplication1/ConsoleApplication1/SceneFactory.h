@@ -1,8 +1,8 @@
 #pragma once
+
 class SceneFactory
 {
 public:
-	SceneFactory();
-	~SceneFactory();
+	static class Scene* Make(eScene a_eScene);
 };
 

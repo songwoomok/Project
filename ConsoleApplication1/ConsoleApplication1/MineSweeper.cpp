@@ -1,7 +1,13 @@
 ﻿#include "pch.h"
 #include <iostream>
 
+#include "Application.h"
+
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	Application* pApp = new Application();
+	pApp->Run();
+	SAFE_DELETE(pApp);
+
+	return 0;
 }
