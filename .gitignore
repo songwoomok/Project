@@ -1,5 +1,4 @@
-ConsoleApplication1/.vs/ConsoleApplication1/v15
-ConsoleApplication1/.vs/ConsoleApplication1/v15/ipch
-ConsoleApplication1/Debug
-ConsoleApplication1/ConsoleApplication1/Debug
-ConsoleApplication1/ConsoleApplication1/Debug/ConsoleA.6811A350.tlog
+ConsoleApplication1/.vs/**
+ConsoleApplication1/Debug/**
+ConsoleApplication1/ConsoleApplication1/Debug/**
+
