@@ -37,6 +37,7 @@ public:
 
 	void Init();
 	void ChangeScene(eScene a_eScene);
+	void NextScene();
 
 	void Update(float a_fDeltaTime);
 	void Render();

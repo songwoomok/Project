@@ -22,6 +22,7 @@ Application::~Application()
 
 void Application::Run()
 {
+	CursorView(0);
 	while (true)
 	{
 		clock_t now = clock();

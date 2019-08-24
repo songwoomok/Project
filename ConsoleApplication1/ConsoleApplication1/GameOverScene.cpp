@@ -20,11 +20,11 @@ void GameOverScene::Init()
 }
 void GameOverScene::Update(float a_fDeltaTime)
 {
-	SetCursor(5, 4);
-	cout << a_fDeltaTime << endl;
+	
 }
 void GameOverScene::Render()
 {
+	system("cls");
 	SetCursor(5, 5);
-	cout << "test scene" << endl;
+	cout << "Game Over" << endl;
 }

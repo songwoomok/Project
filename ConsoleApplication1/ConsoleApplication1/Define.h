@@ -5,6 +5,7 @@ enum class eScene
 	IntroScene,
 	GameScene,
 	GameOverScene,
+	GameClearScene,
 };
 
 enum class eUpdateState
@@ -15,11 +16,11 @@ enum class eUpdateState
 
 enum eGamePlay
 {
-	Player = 1000,
+	Player = 100,
 
-	Mine,
-	Open,
-	Flag,
+	Mine = 90,
+	Open = 30,
+	Flag = 80,
 };
 #define SAFE_DELETE(x)		{ if((x) != nullptr ) { delete (x); (x) = nullptr; } }
 #define SAFE_DELETE_ARR(x)	{ if((x) != nullptr ) { delete[] (x); (x) = nullptr; } }

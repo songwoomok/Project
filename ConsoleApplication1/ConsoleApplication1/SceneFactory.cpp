@@ -17,10 +17,10 @@ Scene* SceneFactory::Make(eScene a_eScene)
 		pMakedScene = new IntroScene(pParent);
 		break;
 	case eScene::GameScene:
-		pMakedScene = new IntroScene(pParent);
+		pMakedScene = new GameScene(pParent);
 		break;
 	case eScene::GameOverScene:
-		pMakedScene = new IntroScene(pParent);
+		pMakedScene = new GameOverScene(pParent);
 		break;
 	default:
 		assert(false && "arg error");

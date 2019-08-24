@@ -5,6 +5,7 @@ class IntroScene : public Scene
 public:
 	IntroScene(SceneManager * a_pParent);
 	virtual ~IntroScene();
+	
 
 	// Scene을(를) 통해 상속됨
 	virtual eScene GetScene() override;

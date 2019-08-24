@@ -1,10 +1,11 @@
 #pragma once
 #include "Scene.h"
-class GameScene : public Scene
+
+class GameClearScene : public Scene
 {
 public:
-	GameScene(SceneManager * a_pParent);
-	virtual ~GameScene();
+	GameClearScene(SceneManager * a_pParent);
+	virtual ~GameClearScene();
 
 	// Scene을(를) 통해 상속됨
 	virtual eScene GetScene() override;
@@ -13,10 +14,5 @@ public:
 	virtual void Update(float a_fDeltaTime) override;
 	virtual void Render() override;
 
-	bool m_bGameOver = true;
-	bool m_bGameClear = false;
-	int m_Width, m_Height;
-	int m_nX = 0;
-	int m_nY = 0;
 };
 

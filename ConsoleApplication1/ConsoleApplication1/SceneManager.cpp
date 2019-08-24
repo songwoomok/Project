@@ -24,7 +24,14 @@ void SceneManager::ChangeScene(eScene a_eScene)
 
 	assert((m_pNowScene != nullptr) && "error");
 
+	system("cls");
+
 	m_pNowScene->Init();
+}
+
+void SceneManager::NextScene()
+{
+	ChangeScene(eScene::GameScene);
 }
 
 void SceneManager::Update(float a_fDeltaTime)
