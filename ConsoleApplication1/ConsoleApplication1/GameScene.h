@@ -6,7 +6,6 @@ public:
 	GameScene(SceneManager * a_pParent);
 	virtual ~GameScene();
 
-	// Scene을(를) 통해 상속됨
 	virtual eScene GetScene() override;
 
 	virtual void Init() override;

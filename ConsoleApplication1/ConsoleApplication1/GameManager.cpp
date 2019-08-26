@@ -2,14 +2,6 @@
 #include "GameManager.h"
 #include "GameScene.h"
 
-#define MINE 90        //지뢰
-#define OPEN 30
-#define LEFT   75      // 좌측방향키
-#define RIGHT  77      // 우측방향키
-#define UP     72      // 위쪽방향키
-#define DOWN   80      // 아래방향키
-#define CHECK   80     // 지뢰 표시
-#define USER 100       //유저 
 
 GameManager::GameManager(int a_Width, int a_Height) : 
 	m_Width(a_Width), m_Height(a_Height)
@@ -84,7 +76,7 @@ void GameManager::DrawGameBoard(int a_nLocation)
 			}
 			else if (m_GameData[i * m_Height + j] == Flag)
 			{
-				cout << "†";
+				cout << "♣";
 			}
 			else
 			{
@@ -146,7 +138,7 @@ void GameManager::SetPosBoard(int a_location)
 		{
 			if (m_TempData[i * m_Height + j] == Mine && i * m_Height + j != a_location)
 			{
-				cout << "◈";
+				cout << "※";
 			}
 			else if (Mine && i * m_Height + j != a_location)
 			{
